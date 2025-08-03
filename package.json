@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "next": "15.4.5",
-    "prettier": "^3.6.2",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
@@ -20,9 +19,11 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
+    "@typescript-eslint/parser": "^8.38.0",
+    "eslint": "^9.32.0",
     "eslint-config-next": "15.4.5",
+    "prettier": "^3.6.2",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5.8.3"
   }
 }
