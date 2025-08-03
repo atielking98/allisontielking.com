@@ -7,14 +7,24 @@ export default function Home() {
                 <h3>software engineer & city planner in training</h3>
             </div>
             <div className="flex flex-grow border border-gray-200 rounded-md p-10 text-xl">
-                Hi, I'm Alli! I'm currently studying for a Master in City
-                Planning at MIT DUSP.
+                <div>
+                    Hi, I'm Alli! I'm currently studying for a Master in City
+                    Planning at{" "}
+                    <a
+                        href="https://dusp.mit.edu/masters"
+                        target="_blank"
+                        className="font-semibold relative after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:bg-current after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">
+                        MIT DUSP
+                    </a>
+                    .
+                </div>
             </div>
             <div className="flex items-center justify-center gap-2">
                 🎀
                 <div>
                     <a
                         href="mailto:hi@allisontielking.com"
+                        target="_blank"
                         className="relative after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:bg-current after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">
                         email
                     </a>
@@ -23,6 +33,7 @@ export default function Home() {
                 <div>
                     <a
                         href="https://tielqueen.substack.com"
+                        target="_blank"
                         className="relative after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:bg-current after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">
                         substack
                     </a>
@@ -31,6 +42,7 @@ export default function Home() {
                 <div>
                     <a
                         href="https://www.linkedin.com/in/allison-tielking/"
+                        target="_blank"
                         className="relative after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:bg-current after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">
                         linkedin
                     </a>
@@ -39,6 +51,7 @@ export default function Home() {
                 <div>
                     <a
                         href="https://github.com/atielking98"
+                        target="_blank"
                         className="relative after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:bg-current after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">
                         github
                     </a>
