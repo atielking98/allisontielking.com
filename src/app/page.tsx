@@ -22,6 +22,14 @@ export default function Home() {
                 🎀
                 <div>
                     <a
+                        href="https://tielqueen.substack.com"
+                        className="relative after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:bg-current after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">
+                        substack
+                    </a>
+                </div>
+                🎀
+                <div>
+                    <a
                         href="https://www.linkedin.com/in/allison-tielking/"
                         className="relative after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:bg-current after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">
                         linkedin
