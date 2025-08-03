@@ -1,11 +1,17 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function Home() {
     return (
-        <div className="min-h-screen px-20 py-10 flex flex-col justify-between">
+        <div className="min-h-screen px-20 py-10 flex flex-col gap-12 justify-between">
             <div>
                 <h1>Allison Tielking</h1>
                 <h3>software engineer & city planner in training</h3>
             </div>
+            <div className="flex flex-grow border border-gray-200 rounded-md p-10 text-xl">
+                Hi, I'm Alli! I'm currently studying for a Master in City
+                Planning at MIT DUSP.
+            </div>
             <div className="flex items-center justify-center gap-2">
+                🎀
                 <div>
                     <a
                         href="mailto:hi@allisontielking.com"
@@ -13,7 +19,7 @@ export default function Home() {
                         email
                     </a>
                 </div>
-                <div>{"\u00B7"}</div>
+                🎀
                 <div>
                     <a
                         href="https://www.linkedin.com/in/allison-tielking/"
@@ -21,7 +27,7 @@ export default function Home() {
                         linkedin
                     </a>
                 </div>
-                <div>{"\u00B7"}</div>
+                🎀
                 <div>
                     <a
                         href="https://github.com/atielking98"
@@ -29,6 +35,7 @@ export default function Home() {
                         github
                     </a>
                 </div>
+                🎀
             </div>
         </div>
     );
