@@ -24,7 +24,6 @@ export default function Home() {
                 </div>
             </div>
             <div className="flex items-center justify-center gap-2">
-                ·
                 <div>
                     <a
                         href="mailto:hi@allisontielking.com"
@@ -60,7 +59,6 @@ export default function Home() {
                         github
                     </a>
                 </div>
-                ·
             </div>
         </div>
     );
