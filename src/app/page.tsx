@@ -11,20 +11,31 @@ export default function Home() {
                 Reading:
                 <ul className="list-disc pl-6">
                     <li>
-                        <span className="italic">The Poetics of Space</span> by
-                        Gaston Bachelard
+                        <a
+                            href="https://www.goodreads.com/book/show/20893524-the-poetics-of-space"
+                            target="_blank"
+                            className="italic">
+                            The Poetics of Space
+                        </a>{" "}
+                        by Gaston Bachelard
                     </li>
                     <li>
-                        <span className="italic">
+                        <a
+                            href="https://www.goodreads.com/book/show/20186.Seeing_Like_a_State"
+                            target="_blank"
+                            className="italic">
                             Seeing Like a State: How Certain Schemes to Improve
                             the Human Condition Have Failed
-                        </span>
+                        </a>
                         by James C. Scott
                     </li>
                     <li>
-                        <span className="italic">
+                        <a
+                            href="https://www.goodreads.com/book/show/60811826-i-who-have-never-known-men"
+                            target="_blank"
+                            className="italic">
                             I Who Have Never Known Men
-                        </span>{" "}
+                        </a>{" "}
                         by Jacqueline Harpman
                     </li>
                 </ul>
