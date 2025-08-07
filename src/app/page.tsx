@@ -92,7 +92,7 @@ export default function Home() {
     };
 
     return (
-        <div className="min-h-screen px-20 py-8 flex flex-col gap-8 justify-between">
+        <div className="min-h-screen px-8 sm:px-20 py-8 flex flex-col gap-8 justify-between">
             <div className="relative">
                 <div className="absolute inset-0 bg-[url('/city-plan.png')] bg-right bg-no-repeat opacity-30 pointer-events-none"></div>
                 <div className="relative z-10">
